@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: var(--mainfont);
+    height: 5000px;
+ 
+ }
+ .countiner{
+     width:80%;
+     margin: auto;
+     
+ 
+ }
+ .ROW{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+    
+ }
+ :root{
+    --mainfont:"Poppins","sans-seirf";
+    --subfont:"Inter","sans-seirf";
+    --maincolor:#02489;
+
+ }
+ 
+a{
+    text-decoration: none;
+    
+ }
