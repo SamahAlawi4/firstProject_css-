@@ -487,3 +487,24 @@
     }
     
  }
+ @media(max-width:640px){
+    .internal_start{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        font-size: x-small;
+        position: -webkit-sticky;
+
+    }
+    .internal_end{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .select_course{
+        width: 400px;
+        font-size: xx-small;
+    }
+
+ }
